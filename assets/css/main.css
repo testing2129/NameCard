@@ -712,6 +712,24 @@ input, select, textarea {
 					display: none;
 				}
 
+	/* Profile image */
+		#header img {
+			width: 140px;
+			height: 140px;
+			border-radius: 50%;
+			object-fit: cover;
+			display: block;
+			margin: 0 auto 15px;
+			border: 3px solid rgba(255,255,255,0.15);
+		}
+
+		@media screen and (max-width: 480px) {
+			#header img {
+				width: 100px;
+				height: 100px;
+			}
+		}
+
 /* Footer */
 
 	#footer {
